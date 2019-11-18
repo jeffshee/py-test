@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde, entropy
 import numpy as np
 
-warnings.simplefilter(action='ignore', category=FutureWarning)
-
 # Generate random numbers from normal distributions
 x1 = np.random.normal(0, 1, (10000,))
 x2 = np.random.normal(0, 1, (10000,))
